@@ -1,0 +1,160 @@
+body
+{
+	background-image: url("images/background.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+
+div.content
+{
+	background-color: white;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;	
+	border-radius: 10px 10px 10px 10px;
+	position: relative;
+	font-family: trebuchet ms;
+}
+
+audio
+{
+	background-image: url("images/spiders.png");
+	width: 150px;
+	height: 133px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+nav
+{
+	margin-top: -80px;
+	display: inline-block;
+	width: 100%;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	padding-left: 0px;
+	margin-top: 100px;
+    background-color: rgb(150, 195, 70);
+	border-radius: 10px 10px 10px 10px;
+}
+
+nav li
+{
+	display: inline-block;
+	padding-right: 5px;
+	border-right: 3px groove;
+	border-right-color: rgb(70, 129, 179);
+}
+
+nav li:last-child
+{
+	border-right: none;
+}
+
+article, aside
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+article
+{
+	margin: 2px;
+	text-align: justify;
+}
+
+.photo_accueil
+{
+	width: 450px;
+	text-align: center;
+}		  
+
+
+footer
+{
+	text-align: center;
+	vertical-align: top;
+}
+
+.footer
+{
+	list-style-type: none;
+}
+
+.footer li
+{
+	display: inline-block;
+	margin-right: 50px;
+}
+
+h2 {font-family: Arial Rounded MT Bold; text-align: center; color: rgb(2, 226, 23)}
+
+h3
+{
+	color: navy;
+}
+
+
+nav a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.footer a
+{
+	text-decoration: none;
+	color: green;
+}
+
+nav a:hover,.footer a:hover
+{
+	text-decoration: underline;
+	color: red;
+} 
+ strong
+ {
+ 	color: red;
+}
+
+.binomeinscr, .tandeminscr, .resul2009, .resul2010, .resul2011, .galphot, .galvid, .parc, .randoinscr
+{
+	list-style-type: none;
+}						   
+
+.description
+{
+	width: 100%;
+}
+
+.descriptiontexte
+{
+	width: 550px;
+	text-align: justify;
+}
+
+.descriptionaccueil
+{
+	width: 400px;
+	text-align: justify;
+}
+
+h1
+{
+	color: red;
+	text-align: center;	
+	text-shadow: 2px 2px 4px black;
+	font-size: 2em;
+}
