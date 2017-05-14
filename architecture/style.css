@@ -41,7 +41,7 @@ nav ul
 {
 	display: inline-block;
 	width: 100%;
-    text-align: center;
+	text-align: center;
 	list-style-type: none;
 	padding-left: 0px;
 	background-color: #96c346;
@@ -54,6 +54,9 @@ nav li
 	padding-right: 5px;
 	border-right: 3px groove;
 	border-right-color: rgb(70, 129, 179);
+}
+nav li.active {
+	color: #dd2744;
 }
 
 nav li:last-child
@@ -165,7 +168,7 @@ ul.new-runs li {
   text-indent: -1em;
 }
 
-ul.new-runs li a {
+a {
 	color: #96c346
 }
 
