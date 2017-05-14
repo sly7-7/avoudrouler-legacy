@@ -139,6 +139,13 @@ nav a:hover,.footer a:hover
 	list-style-type: none;
 }						   
 
+ul.parc li {
+	color: #dd2744;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+
 .description
 {
 	width: 100%;
