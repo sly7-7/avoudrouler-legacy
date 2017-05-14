@@ -44,7 +44,7 @@ nav ul
     text-align: center;
 	list-style-type: none;
 	padding-left: 0px;
-	background-color: rgb(150, 195, 70);
+	background-color: #96c346;
 	border-radius: 10px 10px 10px 10px;
 }
 
@@ -101,7 +101,7 @@ footer
 	margin-right: 50px;
 }
 
-h2 {font-family: Arial Rounded MT Bold; text-align: center; color: rgb(2, 226, 23)}
+h2 {font-family: Arial Rounded MT Bold; text-align: center; color: #96c346}
 
 h3
 {
@@ -124,11 +124,11 @@ nav a
 nav a:hover,.footer a:hover
 {
 	text-decoration: underline;
-	color: red;
+	color: #dd2744;
 } 
  strong
  {
- 	color: red;
+ 	color: #dd2744;
 }
 
 .binomeinscr, .tandeminscr, .resul2009, .resul2010, .resul2011, .galphot, .galvid, .parc, .randoinscr
@@ -153,9 +153,30 @@ nav a:hover,.footer a:hover
 	text-align: justify;
 }
 
+ul.new-runs {
+	list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul.new-runs li {
+	color: #dd2744;
+	padding-left: 1em;
+  text-indent: -1em;
+}
+
+ul.new-runs li a {
+	color: #96c346
+}
+
+ul.new-runs li:before {
+	content: "✓";
+  padding-right: 5px;
+}
+
 h1
 {
-	color: red;
+	color: #dd2744;
 	text-align: center;	
 	text-shadow: 2px 2px 4px black;
 	font-size: 2em;
