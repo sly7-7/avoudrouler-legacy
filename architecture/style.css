@@ -72,6 +72,7 @@ article, aside
 
 article
 {
+	padding: 0 30px;
 	margin: 2px;
 	text-align: justify;
 }
@@ -82,7 +83,6 @@ article div {
 
 .photo_accueil
 {
-	width: 450px;
 	text-align: center;
 }		  
 
@@ -156,7 +156,7 @@ ul.parc li {
 	text-align: justify;
 }
 
-.descriptionaccueil
+.half-width
 {
 	width: 400px;
 	text-align: justify;
