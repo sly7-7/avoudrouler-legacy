@@ -190,3 +190,7 @@ h1
 	text-shadow: 2px 2px 4px black;
 	font-size: 2em;
 }
+
+.center {
+	text-align: center;
+}
