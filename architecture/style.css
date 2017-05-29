@@ -23,6 +23,11 @@ div.content
 	font-family: trebuchet ms;
 }
 
+.header img {
+	position: relative;
+	left: 20px;
+}
+
 audio
 {
 	background-image: url("images/spiders.png");
